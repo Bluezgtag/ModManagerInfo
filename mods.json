@@ -1,0 +1,173 @@
+{
+   "mods" : [
+      {
+         "name" : "BepInEx",
+         "tag" : "",
+         "gitPath" : "BepInEx/BepInEx",
+         "releaseId" : 1,
+         "author" : "BepInEx Team",
+         "group" : "Core"
+      },
+      {
+         "name" : "Monke Dimensions",
+         "tag" : "",
+         "gitPath" : "Chin0303/Monke-Dimensions",
+         "releaseId" : 0,
+         "author" : "Chin",
+         "group" : "Gameplay",
+         "dependencies" : [
+          "Newtonsoft.JSON",
+          "Utilla"
+         ]
+      },
+      {
+         "name" : "Platforms",
+         "tag" : "",
+         "gitPath" : "HuskyGT/Banana-Platforms",
+         "releaseId" : 0,
+         "author" : "Husky",
+         "group" : "Gameplay",
+         "dependencies" : [
+           "Utilla",
+           "Banana OS"
+          ]
+      },
+      {
+         "name" : "Fly",
+         "tag" : "",
+         "gitPath" : "DeanAndMason1314/Deanfly",
+         "releaseId" : 0,
+         "author" : "Dean And Mason",
+         "group" : "Gameplay",
+         "dependencies" : [
+           "Utilla",
+           "Banana OS"
+          ]
+      },
+      {
+         "name" : "Dash Monke",
+         "tag" : "",
+         "gitPath" : "Striker-67/DashMonke-BananOS-",
+         "releaseId" : 0,
+         "author" : "Striker",
+         "group" : "Gameplay",
+         "dependencies" : [
+           "Utilla",
+           "Banana OS"
+          ]
+      },
+      {
+         "name" : "Checkpoint",
+         "tag" : "",
+         "gitPath" : "TTGFireGiraffe/Checkpoint-Mod",
+         "releaseId" : 0,
+         "author" : "Fire Giraffe",
+         "group" : "Gameplay",
+         "dependencies" : [
+           "Utilla",
+           "Banana OS"
+          ]
+      },
+      {
+         "name" : "Banana Arms",
+         "tag" : "",
+         "gitPath" : "tyrr72/BananaArms",
+         "releaseId" : 0,
+         "author" : "Tyrr72",
+         "group" : "Gameplay",
+         "dependencies" : [
+           "Utilla",
+           "Banana OS"
+          ]
+      },
+      {
+         "name" : "Checkpoint",
+         "tag" : "",
+         "gitPath" : "TTGFireGiraffe/Checkpoint-Mod",
+         "releaseId" : 0,
+         "author" : "Fire Giraffe",
+         "group" : "Gameplay",
+         "dependencies" : [
+           "Utilla",
+           "Banana OS"
+          ]
+      },
+      {
+         "name" : "Utilla BROKEN ATM",
+         "tag" : "",
+         "gitPath" : "legoandmars/Utilla",
+         "releaseId" : 0,
+         "author" : "Bobbie",
+         "group" : "Libraries"
+      },
+      {
+        "name" : "Computer Interface",
+        "tag" : "",
+        "gitPath" : "Bluezgtag/ComputerInterface",
+        "releaseId": 0,
+        "author" : "Toni Macaroni",
+        "group" : "Libraries",
+        "dependencies" : [
+          "Bepinject"
+        ]
+      },
+      {
+        "name" : "Bepinject",
+        "tag" : "",
+        "gitPath" : "Auros/Bepinject",
+        "releaseId": 0,
+        "author" : "Auros",
+        "group" : "Libraries",
+        "installPath" : "BepInEx/plugins",
+        "dependencies" : [
+          "Extenject"
+        ]
+      },
+      {
+        "name" : "Extenject",
+        "tag" : "",
+        "gitPath" : "Auros/Bepinject",
+        "releaseId": 1,
+        "author" : "svermeulen",
+        "group" : "Libraries",
+        "installPath" : "BepInEx/plugins"
+      },
+      {
+         "name" : "Banana OS",
+         "tag" : "",
+         "gitPath" : "HuskyGT/Banana-OS",
+         "releaseId" : 0,
+         "author" : "Husky",
+         "group" : "Libraries",
+         "dependencies" : [
+           "Utilla"
+          ]
+      },
+      {
+         "name" : "Newtonsoft.JSON",
+         "tag" : "",
+         "gitPath" : "legoandmars/Newtonsoft.Json",
+         "releaseId" : 0,
+         "author" : "James Newton-King",
+         "group" : "Libraries"
+      }
+   ],
+   "groups" : [
+     {
+       "name" : "Core",
+       "rank" : 0
+     },
+     {
+       "name" : "Cosmetic",
+       "rank" : 1
+     },
+     {
+       "name" : "Gameplay",
+       "rank" : 2
+     },
+     {
+       "name" : "Libraries",
+       "rank" : 3
+     }
+   ]
+}
